@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ApplyInsurance">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/autour_one"
+                android:text="@string/premium"
+                android:textColor="#FFFF00"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="@string/get_premium"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/premium"
+                app:srcCompat="@drawable/apply_insurance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/fill_information"
+                android:textColor="#FFA500"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layoutInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:orientation="vertical"
+                android:background="@drawable/apply_insurance_border"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/personal_info" >
+
+                <TextView
+                    android:id="@+id/plan_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/plan_select"
+                    android:textColor="#ffbb33"
+                    android:textSize="23sp" />
+
+                <RadioGroup
+                    android:id="@+id/plan_opted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/plan_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plan_1"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/plan_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plan_2"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/plan_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plan_3"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/plan_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plan_4"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/plan_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plan_5"
+                        android:textColor="#FFFFFF" />
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/dob"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:background="#808080"
+                    android:ems="10"
+                    android:hint="@string/dob"
+                    android:importantForAutofill="no"
+                    android:inputType="date"
+                    android:minHeight="48dp"
+                    android:padding="7dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_baseline_date_range_24"
+                    android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                    android:textColorHint="#FFFFFF"
+                    tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/select_gender"
+                    android:textColor="#ffbb33"
+                    android:textSize="23sp" />
+
+                <RadioGroup
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_button_male"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_button_female"
+                        android:textColor="#FFFFFF" />
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/bmi"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:background="#808080"
+                    android:ems="10"
+                    android:hint="@string/bmi"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:padding="7dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_baseline_3p_24"
+                    android:drawableLeft="@drawable/ic_baseline_3p_24"
+                    android:textColorHint="#FFFFFF"
+                    tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/smoking_habit"
+                    android:textColor="#ffbb33"
+                    android:textSize="23sp" />
+
+                <RadioGroup
+                    android:id="@+id/smoker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/smoke_yes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_button_smoker_yes"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/smoke_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/radio_button_smoker_no"
+                        android:checked="true"
+                        android:textColor="#FFFFFF" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/region_area"
+                    android:textColor="#ffbb33"
+                    android:textSize="23sp" />
+
+                <RadioGroup
+                    android:id="@+id/region"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical" >
+
+                    <RadioButton
+                        android:id="@+id/north_east"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/region_1"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/north_west"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/region_2"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/south_east"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/region_3"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/south_west"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/region_4"
+                        android:textColor="#FFFFFF" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/premium_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="@string/check_premium"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

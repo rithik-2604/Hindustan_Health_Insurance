@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969401705453",
+    "firebase_url": "https://hindustanhealthinsurance-ee495-default-rtdb.firebaseio.com",
+    "project_id": "hindustanhealthinsurance-ee495",
+    "storage_bucket": "hindustanhealthinsurance-ee495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969401705453:android:e45fe315497cd8bb8abde4",
+        "android_client_info": {
+          "package_name": "com.example.hindustanhealthinsurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969401705453-stpmsl1sflq2kat4loa75v5j0sff1s3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUgnQbgchg7XMrSH9OIOSS_Gc_hqx63kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969401705453-stpmsl1sflq2kat4loa75v5j0sff1s3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

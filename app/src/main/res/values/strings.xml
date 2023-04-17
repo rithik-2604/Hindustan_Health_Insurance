@@ -1,0 +1,222 @@
+<resources>
+    <string name="default_text">DEFAULT</string>
+
+    //SPLASH SCREEN
+    <string name="app_name">HindustanHealthInsurance</string>
+    <string name="app_name_1">HINDUSTAN</string>
+    <string name="app_name_2">HEALTH INSURANCE</string>
+    <string name="app_homePic">Home_Pic</string>
+
+
+    //SLIDE SHOW SCREEN
+    //welcome_slide1
+    <string name="slideshow_1">ss_1</string>
+    <string name="ws1_name_1">We will provide you with the</string>
+    <string name="ws1_name_2">BEST INSURANCE</string>
+    //welcome_slide2
+    <string name="slideshow_2">ss_2</string>
+    <string name="ws2_name_1">No one can predict the future</string>
+    <string name="ws2_name_2">We can PROTECT it</string>
+    //welcome_slide3
+    <string name="slideshow_3">ss_3</string>
+    <string name="ws3_name_1">Keeping Customers Prior</string>
+    <string name="ws3_name_2">UNBIASED ADVICE</string>
+
+    //Welcome Screen
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="start">GOT IT</string>
+
+    //Start Screen
+    <string name="app_start">App-Home</string>
+    //Horizantal Pics
+    <string name="p1">P1</string>
+    <string name="p2">P2</string>
+    <string name="p3">P3</string>
+    <string name="tag_line">TAKE A POSITIVE STEP HERE</string>
+    <string name="btn_start">START</string>
+
+
+    //Login Activity
+    //1. Components Descriptions
+    <string name="login_txt">LOGIN</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="sigin_pic">SIGNIN_PIC</string>
+    <string name="login_arrow">RIGHT ARROW</string>
+    <string name="new_user">New User? Register</string>
+
+    //2. Components Validation
+    <string name="e_login">Please enter your email address</string>
+    <string name="p_login">Please enter your password</string>
+
+
+    //Register Activity
+    //1. Components Descriptions
+    <string name="register_txt">REGISTER</string>
+    <string name="register_tagline1">Lets join us</string>
+    <string name="register_tagline2">Build your relationship with US!</string>
+
+    <string name="personal_info">1. PERSONAL INFORMATION</string>
+    <string name="name1_register">FirstName</string>
+    <string name="name2_register">LastName</string>
+    <string name="email_register">Email</string>
+    <string name="password_register">Password</string>
+    <string name="confirm_password_register">Confirm Password</string>
+    <string name="phone_register">PhoneNumber</string>
+
+    <string name="white_dotted_line">White Dotted Line</string>
+
+    <string name="address_info">2. ADDRESS FOR COMMUNICATION</string>
+    <string name="address_1">Address Line - 1</string>
+    <string name="address_2">Address Line - 2 (Optional)</string>
+    <string name="city">City</string>
+    <string name="state_select">SELECT STATE</string>
+    <string name="selected_state">State: </string>
+    <string name="pin_code">PinCode</string>
+    <string name="google_register">GOOGLE</string>
+    <string name="facebook_register">FACEBOOK</string>
+    <string name="existing_user">Already Signed Up?</string>
+
+    //2. Components Validation
+    <string name="fn_valid">Please enter your first name</string>
+    <string name="ln_valid">Please enter your last name</string>
+    <string name="e_valid">Please enter valid email address</string>
+    <string name="p_valid">Password must contains 8 characters including 1 digit and 1 special symbol.</string>
+    <string name="cp_valid">Password and Confirm Password do not match</string>
+    <string name="pn_valid">Phone number must contain 10 digits</string>
+
+    <string name="address_1_valid">Please enter your address</string>
+    <string name="city_valid">Please enter your city</string>
+    <string name="state_valid">Select your state</string>
+    <string name="pin_code_valid">Pin code must contain 6 digits</string>
+
+
+    //DashBoard Activity
+    <string name="name_board">My DashBoard</string>
+    <string name="dashboard_user">USER</string>
+    <string name="user_history">History</string>
+    <string name="group_chat">Chat Room</string>
+    <string name="user_support">Support</string>
+    <string name="user_apply">Apply Insurance</string>
+    <string name="user_renewal">Renewal</string>
+    <string name="user_logout">Logout</string>
+
+
+    //InsuranceList Activity
+    //1. Top(Relative Layout)
+    <string name="insurance_list_scrollview">ScrollView</string>
+    <string name="go_back">GO BACK</string>
+    <string name="filter">FILTER</string>
+
+    <string name="book_insurance">BOOK YOUR BEST POLICY</string>
+    <string name="insurance_plans">INSURANCE PLANS</string>
+    <string name="down_insurance_list">DOWN_INSURANCE_LIST</string>
+
+    <string name="life_time">Term: 1 Year</string>
+    <string name="plan_1">Plan: Rs. 1 Lakh</string>
+    <string name="plan_2">Plan: Rs. 2 Lakh</string>
+    <string name="plan_3">Plan: Rs. 3 Lakh</string>
+    <string name="plan_4">Plan: Rs. 5 Lakh</string>
+    <string name="plan_5">Plan: Rs. 10 Lakh</string>
+
+
+    //ApplyInsurance Activity
+    <string name="premium">HEALTH INSURANCE PREMIUM</string>
+    <string name="get_premium">GET PREMIUM IN SECONDS</string>
+
+    //1. Strings for all the fields
+    <string name="fill_information">FILL IN THE INFORMATION</string>
+    <string name="plan_select">PLAN SELECTED</string>
+    <string name="dob">Date Of Birth(MM/DD/YYYY)</string>
+    <string name="select_gender">SELECT GENDER</string>
+    <string name="radio_button_male">MALE</string>
+    <string name="radio_button_female">FEMALE</string>
+    <string name="bmi">Body Mass Index(BMI)</string>
+    <string name="children_no">Number Of Children</string>
+    <string name="smoking_habit">DO YOU SMOKE?</string>
+    <string name="radio_button_smoker_yes">YES</string>
+    <string name="radio_button_smoker_no">NO</string>
+    <string name="region_area">AREA OF REGION</string>
+    <string name="region_1">NORTH-EAST</string>
+    <string name="region_2">NORTH-WEST</string>
+    <string name="region_3">SOUTH-EAST</string>
+    <string name="region_4">SOUTH-WEST</string>
+    <string name="check_premium">CHECK PREMIUM</string>
+
+    //2. String Errors for all the fields
+    <string name="error_dob">Please enter your Date Of Birth</string>
+    <string name="error_bmi">Body Mass Index(BMI) is an integer or decimal value</string>
+    <string name="error_children">Please enter number of children</string>
+    <string name="radio_button_error">Please choose a valid option</string>
+
+    //Display_Insurance
+    <string name="data_processing">Calculating Insurance Premium</string>
+    <string name="insurance_details">INSURANCE PLAN DETAILS</string>
+    <string name="insurance_cost">INSURANCE COST</string>
+    <string name="plan_type">Plan Type</string>
+    <string name="applied_date">Plan Apply Date</string>
+    <string name="expiry_date">Plan Expiry Date</string>
+    <string name="book_now">Book Insurance</string>
+
+    //OTP_INPUT
+    <string name="otp_verfication">OTP VERFICATION</string>
+    <string name="otp_remind">We will send you the OTP on the given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="get_otp">GET OTP</string>
+
+    //OTP RECEIVE
+    <string name="enter_otp">Please Enter the OTP sent to you</string>
+    <string name="otp_failed">Didn\'t receive the OTP</string>
+    <string name="otp_resend">RESEND OTP</string>
+    <string name="otp_error">Please Enter all the numbers</string>
+    <string name="submit">Submit</string>
+
+    //Layout Plans
+    <string name="purchased_plans">PLANS PURCHASED</string>
+    <string name="plan_adv">Free Health Check-Up</string>
+    <string name="plan">HHIPlan</string>
+    <string name="plan_cost">Plan Cost: </string>
+    <string name="plan_expiry">Expiry Date: </string>
+    <string name="renewal">Renewal</string>
+
+
+    //GroupChatActivity
+    <string name="eMessage">Enter your message</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="random">Random</string>
+
+
+    //RenewalPlanDetails Activity
+    <string name="renewal_plan">Renewal Plan Details</string>
+    <string name="rc_name">Name: </string>
+    <string name="rc_email">Email: </string>
+    <string name="rc_phone">Phone Number: +91</string>
+    <string name="rc_pt">Plan Type: </string>
+    <string name="rc_pc">Plan Cost: Rs. </string>
+    <string name="rc_ad">Applied Date: </string>
+    <string name="rc_bmi">BMI: </string>
+    <string name="rc_smoke">Smoking: </string>
+    <string name="rc_ed">Expiry Date: </string>
+    <string name="rc_btn">Renewal</string>
+
+    //HistoryPlanDetails Activity
+    <string name="history_plan">Cancellation Plan Details</string>
+    <string name="hc_name">Name: </string>
+    <string name="hc_email">Email: </string>
+    <string name="hc_phone">Phone Number: +91</string>
+    <string name="hc_pt">Plan Type: </string>
+    <string name="hc_pc">Plan Cost: Rs. </string>
+    <string name="hc_ad">Applied Date: </string>
+    <string name="hc_bmi">BMI: </string>
+    <string name="hc_smoke">Smoking: </string>
+    <string name="hc_ed">Expiry Date: </string>
+    <string name="hc_btn">Cancel</string>
+
+
+    //Confirm Cancel Activity
+    <string name="confirm_cancel">Are you sure you want to cancel?</string>
+    <string name="confirm_yes">YES</string>
+    <string name="confirm_no">NO</string>
+</resources>

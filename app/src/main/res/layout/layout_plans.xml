@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/plan_pic"
+        android:layout_width="144dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:contentDescription="@string/plan"
+        app:srcCompat="@drawable/show_plans" />
+
+    <TextView
+        android:id="@+id/plan_adv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_toRightOf="@id/plan_pic"
+        android:text="@string/plan_adv"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/plan_pic" />
+
+    <TextView
+        android:id="@+id/plan_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="60sp"
+        android:layout_toEndOf="@id/plan_pic"
+        android:layout_toRightOf="@id/plan_pic"
+        android:text="@string/plan_cost"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/plan_expiry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="90sp"
+        android:layout_toEndOf="@id/plan_pic"
+        android:layout_toRightOf="@id/plan_pic"
+        android:text="@string/plan_expiry"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
